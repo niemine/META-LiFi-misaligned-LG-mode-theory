@@ -1,0 +1,38 @@
+File name: METALIFI_misalignOAM_metadata.txt
+
+Date: 24/07/2025
+
+Location: Tampere University, Tampere, Finland
+
+Researcher: Arttu Nieminen
+
+Project Acronym: METALIFI
+
+Work description:
+This metadata file describes data produced for the project "METALIFI". This work focuses on the analytical framework of misaligned Orbital Angular Momentum (OAM) beams. The data consists of symbolic calculations to derive the polynomial expressions for the OAM spectrum, as a function of optical misalignment parameters. The calculations are based on an analytical model that expands a misaligned beam into a series of Laguerre-Gaussian (LG) modes.
+
+Experiment/Simulation Description:
+The data was generated through symbolic computations using Wolfram Script files in the Mathematica environment. The scripts perform a term-by-term calculation of the polynomials that govern the detected OAM distribution for an OAM beam with an initial topological charge of $l_0$. The calculations are performed for various final OAM modes ($l$). The purpose of these calculations is to numerically verify the analytical formulas and to derive the full polynomial expressions for specific cases.
+
+Computational Environment and Software:
+* Software: Wolfram Mathematica, Wolfram Script
+* Environment: Symbolic computation on a 2D plane to represent the beam.
+
+Key Quantities and Variables:
+The output is a collection of symbolic polynomial terms and their sum, which represents the total power coupled into a specific OAM mode. The variables used in the calculations include:
+* $l_0$: Initial topological charge of the beam.
+* $l$: Final OAM mode being detected.
+* $X_0$: Lateral displacement of the beam.
+* $T_0$: Tilt angle of the beam.
+* $\phi$: Angular orientation of the misalignment.
+* $n, m, j, k, ...$: Summation indices from the analytical expansion.
+
+Search Keywords:
+Orbital Angular Momentum, OAM, Laguerre-Gaussian, LG modes, misaligned beams, optical misalignment, tilt, lateral displacement, OAM spectrum, OAM crosstalk, symbolic calculation, Mathematica, Wolfram, paraxial optics
+
+Data Naming Convention:
+The data files follow the convention: `Implementationl[sign][number].wl`. The sign is only used for negative OAM values. For example:
+* `Implementationl1.wl` for OAM $l=1$.
+* `Implementationl2.wl` for OAM $l=2$.
+* `Implementationlneg1.wl` for OAM $l=-1$.
+
